@@ -1,0 +1,57 @@
+{
+    "scopeName": "source.latexComments",
+    "patterns": [
+        {
+            "name": "comment.section.level1",
+            "match": "^% \\*\\s+.*(?<!§)$"
+        },
+        {
+            "name": "comment.section.todo.level1",
+            "match": "^% \\*\\s+.*§$"
+        },
+        {
+            "name": "comment.section.level2",
+            "match": "^% \\*\\*\\s+.*(?<!§)$"
+        },
+        {
+            "name": "comment.section.todo.level2",
+            "match": "^% \\*\\*\\s+.*§$"
+        },
+        {
+            "name": "comment.section.level3",
+            "match": "^% \\*\\*\\*\\s+.*(?<!§)$"
+        },
+        {
+            "name": "comment.section.todo.level3",
+            "match": "^% \\*\\*\\*\\s+.*§$"
+        },
+        {
+            "name": "comment.section.level4",
+            "match": "^% \\*\\*\\*\\*\\s+.*(?<!§)$"
+        },
+        {
+            "name": "comment.section.todo.level4",
+            "match": "^% \\*\\*\\*\\*\\s+.*§$"
+        },
+        {
+            "name": "comment.section.level5",
+            "match": "^% \\*\\*\\*\\*\\*\\s+.*(?<!§)$"
+        },
+        {
+            "name": "comment.section.todo.level5",
+            "match": "^% \\*\\*\\*\\*\\*\\s+.*§$"
+        },
+        {
+            "name": "comment.question",
+            "match": "^%\\?\\s+.*$"
+        },
+        {
+            "name": "comment.warning",
+            "match": "^%\\^\\s+.*$"
+        }
+    ],
+    "repository": {},
+    "captures": {},
+    "injections": {},
+    "name": "LaTeX Custom Comments"
+}

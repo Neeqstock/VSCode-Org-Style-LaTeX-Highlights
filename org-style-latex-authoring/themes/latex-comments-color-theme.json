@@ -1,0 +1,55 @@
+{
+    "name": "Latex Comment Theme",
+    "type": "dark",
+    "colors": {},
+    "tokenColors": [
+        {
+            "scope": "comment.section.lvl1.green",
+            "settings": {
+                "foreground": "#D5F5E3"
+            }
+        },
+        {
+            "scope": "comment.section.lvl2.green",
+            "settings": {
+                "foreground": "#A9DFBF"
+            }
+        },
+        {
+            "scope": "comment.section.lvl3.green",
+            "settings": {
+                "foreground": "#76D7C4"
+            }
+        },
+        {
+            "scope": "comment.section.lvl4.green",
+            "settings": {
+                "foreground": "#48C9B0"
+            }
+        },
+        {
+            "scope": "comment.section.lvl5.green",
+            "settings": {
+                "foreground": "#1ABC9C"
+            }
+        },
+        {
+            "scope": "comment.section.todo.yellow",
+            "settings": {
+                "foreground": "#F7DC6F"
+            }
+        },
+        {
+            "scope": "comment.question.blue",
+            "settings": {
+                "foreground": "#85C1E9"
+            }
+        },
+        {
+            "scope": "comment.warning.red",
+            "settings": {
+                "foreground": "#E74C3C"
+            }
+        }
+    ]
+}
